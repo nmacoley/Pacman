@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class entites {
+public class game {
     public static String PACMAN = "PACMAN";
     public static char PACMAN_FORM = 'P';
 
@@ -11,7 +11,7 @@ public class entites {
 
     private final String type;
 
-    public entites(int x, int y, String type) {
+    public game(int x, int y, String type) {
         this.x = x;
         this.y = y;
         this.type = type;

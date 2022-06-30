@@ -1,5 +1,5 @@
-public class Pacman extends entites {
+public class Pacman extends game {
     public Pacman(int x, int y) {
-        super(x, y, entites.PACMAN);
+        super(x, y, game.PACMAN);
     }
 }
